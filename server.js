@@ -8,4 +8,4 @@ app.get('/', (req, res) => {
   res.json({id:"IYGD434HUIh", owner:"Heroku"});
 });
 
-app.listen(port, () => console.log(`${process.env.CONSOLE}`));
+app.listen(port);
