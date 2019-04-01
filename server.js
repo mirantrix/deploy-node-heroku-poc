@@ -8,4 +8,4 @@ app.get('/', (req, res) => {
   res.send('Landing Page');
 });
 
-app.listen(port, () => console.log(`at Port: ${port} ${process.env.CONSOLE}`));
+app.listen(port, () => console.log(`${process.env.CONSOLE}`));
