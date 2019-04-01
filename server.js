@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.get('/', (req, res) => {
-  res.send('Landing Page');
+  res.json({id:"IYGD434HUIh", owner:"Heroku"});
 });
 
 app.listen(port, () => console.log(`${process.env.CONSOLE}`));
