@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 app.get('/', (req, res) => {
-  res.send('Landing Page');
+  res.json({ title: "Proof of Concept", message: "Deploy Node App from Heroku" });
 });
 
-app.listen(port, () => console.log(`at Port: ${port}`));
+app.listen(port);
