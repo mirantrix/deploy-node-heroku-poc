@@ -5,7 +5,7 @@ Deploy a Node.js App to Heroku (PoC)
 
 
 # Description
-The MoneyJump App helps you with your personal finance, you will be able to view and categorize your spending behavior in a more friendly way. Know how much you spend on food, how often you spend on gas and in what category you are more efficient with your money.
+Deploy Node App to a Cloud Plataform
 
 
 # Proof of Concept
