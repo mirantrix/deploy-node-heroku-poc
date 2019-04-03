@@ -3,6 +3,7 @@
 # Name
 Deploy a Node.js App to Heroku (PoC)
 
+
 # Description
 The MoneyJump App helps you with your personal finance, you will be able to view and categorize your spending behavior in a more friendly way. Know how much you spend on food, how often you spend on gas and in what category you are more efficient with your money.
 
@@ -27,3 +28,23 @@ The MoneyJump App helps you with your personal finance, you will be able to view
 • Express framework for Node.js
 
 • Heroku Account && Install Heroku CLI
+
+
+# Install & Run
+
+```
+
+$ git clone https://github.com/mirantrix/deploy-node-heroku-poc.git
+$ cd deploy-node-heroku-poc
+$ npm install
+
+```
+
+```
+
+$ git commit -m "Initial commit"
+$ heroku create <app-name-here>
+$ git push heroku master
+$ heroku open
+
+```
