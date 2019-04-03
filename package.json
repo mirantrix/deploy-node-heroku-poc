@@ -1,5 +1,5 @@
 {
-  "name": "deploy-react-express-poc",
+  "name": "deploy-node-heroku-poc",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
