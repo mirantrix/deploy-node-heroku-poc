@@ -48,3 +48,13 @@ $ git push heroku master
 $ heroku open
 
 ```
+
+# PoC Live Link
+
+```
+
+$ git clone https://github.com/mirantrix/deploy-node-heroku-poc.git
+$ cd deploy-node-heroku-poc
+$ npm install
+
+```
