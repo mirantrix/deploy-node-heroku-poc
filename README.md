@@ -53,14 +53,6 @@ $ heroku open
 ```
 
 
-# PoC Live Link
-
-It will become active again after a short delay
-
-[https://deploy-node-app.herokuapp.com/](https://deploy-node-app.herokuapp.com/)
-
-
-
 # Free Dyno Hours
 
 • If dyno receives no web traffic in a 30-minute period, it will sleep.
